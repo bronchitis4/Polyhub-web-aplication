@@ -1,0 +1,15 @@
+
+
+.comment-block-wrapper {
+    width: 100%;
+    min-height: 100px;
+    background-color: white;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.comment-block-content {
+    justify-self: flex-start;
+    text-align: left;
+}

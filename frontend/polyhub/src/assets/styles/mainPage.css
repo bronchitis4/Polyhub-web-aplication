@@ -1,0 +1,54 @@
+
+header {
+    width: 100%;
+   
+}
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1); 
+    padding: 0 20px 0px 20px;
+}
+
+.main-page {
+    width: 100%;
+    display:  flex;
+    justify-content: space-between;
+  }
+  
+  .left-container,  .rigth-container {
+    width: 15%;
+  }
+  
+  .center-container {
+    width: 70%;
+  }
+  
+
+  
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #333;
+}
+
+.log-in {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+}
+
+.btn-login, .btn-signup {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}

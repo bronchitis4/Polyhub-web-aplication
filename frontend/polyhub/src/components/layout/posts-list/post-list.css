@@ -1,0 +1,32 @@
+
+.posts-list-wrapper {
+    overflow-y: auto;
+    width: 100%;
+    height: calc(100vh - 60px);
+}
+
+.posts-list-wrapper {
+    overflow-y: scroll;
+    scrollbar-width: none;        
+    -ms-overflow-style: none;     
+  }
+
+  .loading, .error {
+    margin-top: 50px;
+
+  }
+  
+  .posts-list-wrapper::-webkit-scrollbar {
+    display: none;               
+  }
+  
+  .posts-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    row-gap: 20px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
